@@ -1,0 +1,17 @@
+{
+  "name": "clase19-03-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "servidor": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art": "^2.5.0",
+    "awesome-banner": "^1.1.13",
+    "readline-sync": "^1.4.10"
+  }
+}
