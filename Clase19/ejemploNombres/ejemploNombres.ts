@@ -42,6 +42,7 @@ function eliminarNombre(arrayNombres: string[]): string[] {
 
 
 // function actualizarNombre(opcion: string): void {
+// ME FALTA ESTA PARTE; NO SE MUY BIEN COMO HACERLO.
 
 // }
 
