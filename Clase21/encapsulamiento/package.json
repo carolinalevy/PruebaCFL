@@ -1,0 +1,13 @@
+{
+  "name": "Clase21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "encapsulamiento.js",
+  "scripts": {
+    "compilar": "tsc encapsulamiento.ts & node encapsulamiento.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
