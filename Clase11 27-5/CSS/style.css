@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(218, 241, 9);
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    color: rgb(228, 132, 22);
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: orangered;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+p {
+    color: rgb(219, 84, 5);
+    text-align: left;
+    font-size: 30px;
+}
+
+#italic {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#parrafoExtra {
+    color: red;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    color: lightskyblue;
+    background-color: rgb(5, 107, 5)
+}
+
+ul {
+    list-style-type: ;
+}
+

@@ -1,0 +1,36 @@
+h1 {
+    color: lavender;
+}
+
+h2 {
+    color: lightblue;
+}
+
+h3 {
+    color: lightgoldenrodyellow;
+}
+
+body {
+    background-color: grey;
+}
+
+p {
+    color: hotpink;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mi-div {
+    background-color: palegreen;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid green;
+    border-radius: 20px;
+    margin: 30px 0;
+    padding: 30px;
+}
+
+.span-parrafo {
+    background-color: purple;
+    font-size: 25px ;
+}
