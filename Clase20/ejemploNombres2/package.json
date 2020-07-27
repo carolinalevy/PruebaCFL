@@ -1,0 +1,17 @@
+{
+  "name": "ejemploNombres2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compilar": "tsc ejNombres2.ts & node ejNombres2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.23",
+    "readline-sync": "^1.4.10"
+  }
+}
