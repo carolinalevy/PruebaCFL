@@ -1,0 +1,16 @@
+{
+  "name": "clase20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "txt.js",
+  "scripts": {
+    "compilar": "tsc txt.ts & node txt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.23"
+  }
+}
