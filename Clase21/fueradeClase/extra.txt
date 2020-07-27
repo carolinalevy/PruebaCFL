@@ -1,0 +1,11 @@
+let texto: string = fs.readFileSync('registroAutomotor.txt', 'utf8');
+let registroAutomotor: string[] = texto.split("\r\n");
+console.log(registroAutomotor);
+let autos:string[][] =[];
+for (let i:number=0; i<registroAutomotor.length; i++) {
+    const car = registroAutomotor[i].split(",");
+    console.log(car);
+    autos.push(car);
+}
+console.log(autos);
+
