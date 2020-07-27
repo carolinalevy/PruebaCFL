@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compilar": "tsc registroAutomotor.ts & node registroAutomotor.js",
+    "compilar2": "tsc RA2.ts & node RA2.js",
+    "compilar3": "tsc matriz.ts & node matriz.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
