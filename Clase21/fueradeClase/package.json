@@ -1,0 +1,17 @@
+{
+  "name": "fueradeclase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compilar": "tsc registroAutomotor.ts & node registroAutomotor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.24",
+    "readline-sync": "^1.4.10"
+  }
+}
