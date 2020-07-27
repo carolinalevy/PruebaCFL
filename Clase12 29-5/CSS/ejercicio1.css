@@ -1,0 +1,54 @@
+.div-padre {
+    background-color: rgb(52, 52, 233);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 50px;
+    border: 2px double midnightblue;
+    border-radius: 15px;
+}
+
+.div-hijo {
+    border: 2px solid black;
+    border-radius: 10px;
+    order: 0;
+    background-color: lightcoral;
+    margin: 20px 20px;
+    height: 50%;
+    width: 70%;
+}
+
+.div-distinto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 300px;
+}
+
+.parrafos {
+    color: rgb(52, 52, 233);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding: 5px;
+}
+
+.titulo-padre {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* align-self: flex-start;
+    text-align: justify; */
+
+}
+
+h4 {
+    color: seagreen;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
