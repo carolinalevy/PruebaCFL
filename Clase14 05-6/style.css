@@ -1,0 +1,38 @@
+.main {
+    background-color: grey;
+}
+
+.div2 {
+    background-color: ivory ;
+}
+.div2, .parrafo {
+    color: crimson;
+}
+
+div>p {
+    color: darkblue;
+}
+
+#div2-principal {
+    color: pink;
+}
+
+#unico {
+    color: orange;
+}
+
+.especial {
+    color: lightseagreen;
+}
+
+h1 ~ p {
+    color: green;
+}
+
+a:hover {
+    color: lime;
+}
+
+a:active {
+    color: lightpink;
+}

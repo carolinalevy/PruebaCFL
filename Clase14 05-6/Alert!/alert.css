@@ -1,0 +1,16 @@
+h1 {
+    background-color: orangered;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 250px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p {
+    color: red;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
