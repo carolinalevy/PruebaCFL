@@ -1,0 +1,6 @@
+.pseudo {
+    color: blue;
+}
+.pseudo:hover {
+    color: green;
+}

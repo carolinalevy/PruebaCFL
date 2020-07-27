@@ -1,0 +1,46 @@
+.separacion {
+    height: 20px;
+}
+
+.noticias {
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+}
+
+.nav-item {
+    background-color: khaki;
+}
+
+.noticiasTitulo {
+    text-align: center;
+}
+
+.display-5 {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.noticiasCopete {
+    text-align: center;
+}
+.carousel-caption {
+    font-style: oblique;
+    font-weight: lighter;
+    /* color? */
+}
+
+.body {
+    background-color: cornflowerblue;
+}
+/* conviene meter adentro del body los navbar?*/
+
+.form {
+    padding-bottom: 5px;
+}
+
+.texto {
+    text-align: justify;
+    font-style: normal;
+    margin: 0 10px;
+}
