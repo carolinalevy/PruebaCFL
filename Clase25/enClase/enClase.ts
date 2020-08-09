@@ -14,7 +14,7 @@ class Telefono {
         return true;
     }
 
-    public hacerLlamada () : void {
+    public hacerLlamada (numero:number) : void {
         console.log("hace una llamada");
     }
 
@@ -57,7 +57,7 @@ let miCamara = new Camara();
 
 let miTelefonoConCamara: TelefonoConCamara = new TelefonoConCamara(miCamara);
 
-miTelefonoConCamara.hacerLlamada();
+miTelefonoConCamara.hacerLlamada(24923821);
 miTelefonoConCamara.mandarMensaje("hola que talll", 24923821);
 miTelefonoConCamara.prenderApagar();
 miTelefonoConCamara.prenderApagar();
