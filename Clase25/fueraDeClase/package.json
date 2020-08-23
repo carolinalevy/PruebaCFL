@@ -1,0 +1,16 @@
+{
+  "name": "fueradeclase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "diagrama.js",
+  "scripts": {
+    "compile": "tsc main.ts & tsc inmobiliaria.ts & tsc propiedad.ts & tsc vivienda.ts & tsc lote.ts & tsc casa.ts & tsc departamento.ts & node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
