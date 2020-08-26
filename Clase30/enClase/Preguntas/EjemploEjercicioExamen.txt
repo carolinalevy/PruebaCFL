@@ -1,0 +1,25 @@
+1. Para qué sirve una task en NPM?
+Para que sea más fácil compliar el programa en el que estamos trabajando. Como tenemos que
+correr varios comandos a la vez, al definir una tarea, solo necesitamos uno.
+
+2. Qué pasa cuando se corre el comando "TSC"?
+Se genera un archivo con el mismo codigo pero en Javascript. Luego se usa este archivo JS 
+para compilar el programa.
+
+3. Cómo está organizada una clase?
+Consta de un nombre, variables privadas y metodos públicos.
+
+4. Es correcto que un método auxiliar de una clase sea público? Por qué?
+No es correcto. Ya que por la definicion de Abstracción en Programación Orientada a Objetos,
+solo interesa la función que cumple el objeto y no cómo lo hace. Un método auxiliar 
+serviría para "ayudar" a la clase a funcionar internamente. 
+
+5. Enumerar las caracteristicas de una interfaz.
+Solamente se definen los métodos, no se implementan.
+No se utilizan modificadores de acceso, todo es publico.
+Como todo es público, no se utilizan variables.
+
+6. Cómo se hace para definir un error nuevo en TypeScript?
+Se usa una clase customizada que extiende de la clase Error para definirlo.
+Primero se lanza el error donde vemos que puede suceder algo invalido con "trow", despues
+se lo envuelve en el "try/catch".
