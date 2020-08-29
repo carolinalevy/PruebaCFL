@@ -1,0 +1,13 @@
+{
+  "name": "herencia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "herencia.js",
+  "scripts": {
+    "compilar": "tsc herencia.ts & node herencia.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
