@@ -1,0 +1,7 @@
+Peugeot,206,AJ291KL,1
+Ford,EcoSport,UJ229IO,1
+Porsche,Cayene,MM990LL,2
+Toyota,Hylux,AF344TT,3
+Ford,Ranger,SD342TT,3
+Ford,Ranger,SD342TT,3
+Ford,Ranger,SD342TT,3

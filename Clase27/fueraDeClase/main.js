@@ -1,0 +1,24 @@
+"use strict";
+exports.__esModule = true;
+var camioneta_1 = require("./camioneta");
+var concesionario_1 = require("./concesionario");
+var leerEscribir_1 = require("./leerEscribir");
+var miLectorPorArchivo = new leerEscribir_1.LeerEscribirDesdeArchivo("listaVehiculos.txt");
+var miConcesionario = new concesionario_1.Concesionario(miLectorPorArchivo);
+miConcesionario.cargarVehiculos();
+console.log("Este es \"listarVehiculos\" " + miConcesionario.listarVehiculos()); // salen siempre [object Object]!
+var miAutoNuevo = new camioneta_1.Camioneta("Ford", "Ranger", "SD342TT");
+miConcesionario.checkInVehiculo(miAutoNuevo);
+console.log(miConcesionario.listarVehiculos());
+console.log(miConcesionario.deleteVehiculo("SD342TT"));
+console.log("No lo encontro: " + miConcesionario.deleteVehiculo("SD352TT"));
+console.log("ver1");
+miAutoNuevo.getMarca();
+miAutoNuevo.prender();
+miAutoNuevo.acelerar();
+miAutoNuevo.getVelocidadActual();
+console.log("ver2");
+console.log(miAutoNuevo);
+console.log("ver4");
+console.log(miConcesionario.searchVehiculo("UJ229IO"));
+miConcesionario.guardarVehiculos();
